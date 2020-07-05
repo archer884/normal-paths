@@ -3,6 +3,12 @@ name = "normal-paths"
 version = "0.1.0"
 authors = ["J/A <archer884@gmail.com>"]
 edition = "2018"
+license = "Unlicense"
+description = """
+Windows and Unix-like systems handle glob patterns completely differently.
+This library is meant to paper over the differences between the two in order
+to simplify the construction of cross-platform applications.
+"""
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
